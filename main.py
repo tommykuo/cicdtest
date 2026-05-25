@@ -76,6 +76,7 @@ button.grid(row=3, column=2)
 button = Button(text="Add", width=36, command=save_password)
 button.grid(row=4, column=1, columnspan=2)
 
+print("Hello Test")
 
 window.mainloop()
 
